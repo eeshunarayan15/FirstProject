@@ -1,6 +1,6 @@
 {
   "name": "firstproject",
-  "homepage": "https://github.com/eeshunarayan15/FirstProject.git",
+  "homepage": "https://eeshunarayan15.github.io/FirstProject",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,6 +9,7 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
+    "predeploy": "vite build",
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
